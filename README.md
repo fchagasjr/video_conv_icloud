@@ -1,7 +1,6 @@
 # Video Converter (ICloud Built In Transfer)
 
 This script converts your video files (3GP, MKV, WMV, MP4, AVI) to MP4 and transfers it directly to your ICloud.
-.
 
 ## Getting Started
 
@@ -14,9 +13,12 @@ The script automatically transfers the converted files to your ICloud folder, so
 It would be helpful to make sure you have enogh space available before running as well. Keep in mind that video files are large and the script don't previously check the amount
 of space required to complete the transfer.
 
+The ffmpeg library that runs the conversion is a Python interface for the FFMPEG multimedia framework.
+Visit http://www.ffmpeg.org/ and follow the instructions to install the ffmpeg tool
+
 ### Instructions
 
-No installation necessary, the only requirements is that the script and the files to be converted necessary have to be inside the same folder.
+The only requirements is that the script and the files to be converted necessary have to be inside the same folder.
 All the video files inside that folder will be converted. Just run the script inside the folder containing the files to be converted using the command:
 
 $ python converter.py
