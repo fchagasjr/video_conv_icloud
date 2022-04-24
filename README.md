@@ -1,4 +1,4 @@
-# Video Converter (ICloud Built In Transfer)
+# Video Converter (With Built-In ICloud Transfer)
 
 This script converts your video files (3GP, MKV, WMV, MP4, AVI) to MP4 and transfers it directly to your ICloud.
 
