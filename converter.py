@@ -6,7 +6,7 @@ from pyicloud import PyiCloudService
 
 
 input_path = sys.path[0]
-output_path = f'{input_path}/output'
+output_path = f'{input_path}\output'
 
 
 def collect_files(file_types):
