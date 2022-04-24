@@ -13,8 +13,9 @@ The script automatically transfers the converted files to your ICloud folder, so
 It would be helpful to make sure you have enogh space available before running as well. Keep in mind that video files are large and the script don't previously check the amount
 of space required to complete the transfer.
 
-The ffmpeg library that runs the conversion is a Python interface for the FFMPEG multimedia framework.
+The ffmpeg module that runs the conversion is a Python interface for the FFMPEG multimedia framework.
 Visit http://www.ffmpeg.org/ and follow the instructions to install the ffmpeg tool
+Check the ffmpeg-python documentation https://github.com/kkroening/ffmpeg-python
 
 ### Instructions
 
